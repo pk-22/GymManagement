@@ -1,29 +1,12 @@
--- phpMyAdmin SQL Dump
--- version 5.0.2
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: Oct 21, 2020 at 09:52 AM
--- Server version: 10.4.14-MariaDB
--- PHP Version: 7.2.33
 create database gym_db;
 use gym_db;
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
 --
 -- Database: `gym_db`
 --
-
 -- --------------------------------------------------------
-
 --
 -- Table structure for table `members`
 --
@@ -46,8 +29,8 @@ CREATE TABLE `members` (
 --
 
 INSERT INTO `members` (`id`, `member_id`, `firstname`, `middlename`, `lastname`, `gender`, `contact`, `address`, `email`, `date_created`) VALUES
-(5, 58487246, 'Mike', 'D', 'Williams', 'Male', '+14526-5455-44', 'Sample Address', 'mwilliams@sample.com', '2020-10-21 13:18:19'),
-(6, 59430244, 'Claire', 'D', 'Blake', 'Female', '+18456-5455-55', 'Sample', 'cblake@sample.com', '2020-10-21 14:57:54');
+(5, 58487246, 'Shubham', 'P', 'P', 'Male', '999888995', 'Sample Address', 'spp@gmail.com', '2022-04-10 13:18:19'),
+(6, 59430244, 'Atharva', 'K', 'Bhagya', 'Male', '9897171412', 'Sample', 'atharvabhagya@gmail.com', '2022-04-10 14:57:54');
 
 -- --------------------------------------------------------
 
@@ -174,7 +157,7 @@ CREATE TABLE `trainers` (
 --
 
 INSERT INTO `trainers` (`id`, `name`, `contact`, `email`, `rate`) VALUES
-(1, 'John Smith', '+18456-5455-55', 'jsmith@sample.com', 500);
+(1, 'Ayush Sinha', '9192939495', 'sinhaayus@gmail.com', 500);
 
 -- --------------------------------------------------------
 
@@ -195,7 +178,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `username`, `password`, `type`) VALUES
-(1, 'Administrator', 'admin', '0192023a7bbd73250516f069df18b500', 1);
+(1, 'Administrator', 'admin', '123456', 1);
 
 --
 -- Indexes for dumped tables
@@ -302,6 +285,3 @@ ALTER TABLE `users`
   MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

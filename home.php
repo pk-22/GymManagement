@@ -34,14 +34,19 @@
 		max-height: calc(100%)!important;
 		max-width: calc(100%)!important;
 	}
+
+    .card{
+        border: 0px solid rgba(0,0,0,.125);
+        background-color: #dcdcdc;
+    }
 </style>
 
 <div class="containe-fluid">
 	<div class="row mt-3 ml-3 mr-3">
         <div class="col-lg-12">
-            <div class="card">
+            <div class="card" style="background-color:#dcdcdc">
                 <div class="card-body"   >
-                    <?php echo "Welcome back ". $_SESSION['login_name']."!"  ?>
+                    <?php echo "WELCOME BACK ". $_SESSION['login_name']."!"  ?>
                     <hr>
                     <div class="row">
                         <div class="col-md-4">
