@@ -1,5 +1,6 @@
 <?php include 'db_connect.php' ?>
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300&display=swap');
    span.float-right.summary_icon {
     font-size: 3rem;
     position: absolute;
@@ -41,12 +42,12 @@
     }
 </style>
 
-<div class="containe-fluid">
+<div class="containe-fluid" style="font-family: 'Ubuntu', sans-serif;">
 	<div class="row mt-3 ml-3 mr-3">
         <div class="col-lg-12">
             <div class="card" style="background-color:#dcdcdc">
                 <div class="card-body"   >
-                    <?php echo "WELCOME BACK ". $_SESSION['login_name']."!"  ?>
+                    <?php echo "<b>WELCOME BACK</b> ". $_SESSION['login_name']."!"  ?>
                     <hr>
                     <div class="row">
                         <div class="col-md-4">

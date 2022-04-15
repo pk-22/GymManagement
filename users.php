@@ -1,17 +1,28 @@
 <?php 
 
 ?>
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300&display=swap');
+</style>
 
-<div class="container-fluid">
-	
+<div class="container-fluid" style="font-family: 'Ubuntu', sans-serif;">
+<div class="row mb-4 mt-4">
+			<div class="col-md-12">
+				
+			</div>
+		</div>
 	<div class="row">
+	
 	<div class="col-lg-12">
 			<button class="btn btn-dark float-right btn-sm" id="new_user"><i class="fa fa-plus"></i> New user</button>
 	</div>
 	</div>
 	<br>
 	<div class="row">
-		<div class="card col-lg-12">
+		<div class="card col-lg-12" style="-webkit-box-shadow: 10px 10px 13px 7px rgba(0,0,0,0.35); 
+box-shadow: 10px 10px 13px 7px rgba(0,0,0,0.35);
+border: 0px solid #1C6EA4;
+border-radius: 40px 10px 40px 10px;">
 			<div class="card-body">
 				<table class="table-striped table-bordered col-md-12">
 			<thead>

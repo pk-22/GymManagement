@@ -1,5 +1,6 @@
 
 <style>
+	@import url('https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300&display=swap');
 	.collapse a{
 		text-indent:10px;
 	}
@@ -8,18 +9,36 @@
 	}
 </style>
 
-<nav id="sidebar" class='mx-lt-5' style="background:#9edbca" >
+<nav id="sidebar" class='mx-lt-5'  style="-webkit-box-shadow: 6px 0px 26px 5px rgba(0,0,0,0.34); 
+box-shadow: 6px 0px 26px 5px rgba(0,0,0,0.34); margin-top:19px;"
+>
 		
-		<div class="sidebar-list">
-				<a href="index.php?page=home" class="nav-item nav-home"><span class='icon-field'><i class="fa fa-home"></i></span> Home</a>
-				<a href="index.php?page=members" class="nav-item nav-members"><span class='icon-field'><i class="fa fa-user-friends"></i></span> Members</a>
-				<a href="index.php?page=registered_members" class="nav-item nav-registered_members"><span class='icon-field'><i class="fa fa-id-card"></i></span>  Membership Status</a>
-				<a href="index.php?page=schedule" class="nav-item nav-schedule"><span class='icon-field'><i class="fa fa-calendar-day"></i></span>  Manage Schedule</a>
+		<div class="sidebar-list" style="font-family: 'Ubuntu', sans-serif;">
+				<a href="index.php?page=home" class="nav-item nav-home" style="border: 0px solid #5A5A5A;
+border-radius: 18px 18px 16px 18px; margin:10px;-webkit-box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.36); 
+box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.36);"><span class='icon-field'><i class="fa fa-home"></i></span> Home</a>
+				<a href="index.php?page=members" class="nav-item nav-members" style="border: 0px solid #5A5A5A;
+border-radius: 18px 18px 16px 18px; margin:10px;-webkit-box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.36); 
+box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.36);"><span class='icon-field'><i class="fa fa-user-friends"></i></span> Members</a>
+				<a href="index.php?page=registered_members" class="nav-item nav-registered_members" style="border: 0px solid #5A5A5A;
+border-radius: 18px 18px 16px 18px; margin:10px;-webkit-box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.36); 
+box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.36);"><span class='icon-field'><i class="fa fa-id-card"></i></span>  Membership Status</a>
+				<a href="index.php?page=schedule" class="nav-item nav-schedule" style="border: 0px solid #5A5A5A;
+border-radius: 18px 18px 16px 18px; margin:10px;-webkit-box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.36); 
+box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.36);"><span class='icon-field'><i class="fa fa-calendar-day"></i></span>  Manage Schedule</a>
 				<?php if($_SESSION['login_type'] == 1): ?>
-				<a href="index.php?page=plans" class="nav-item nav-plans"><span class='icon-field'><i class="fa fa-th-list"></i></span> Plans</a>
-				<a href="index.php?page=packages" class="nav-item nav-packages"><span class='icon-field'><i class="fa fa-list"></i></span> Packages</a>
-				<a href="index.php?page=trainer" class="nav-item nav-trainer"><span class='icon-field'><i class="fa fa-user"></i></span> Trainers</a>
-				<a href="index.php?page=users" class="nav-item nav-users"><span class='icon-field'><i class="fa fa-users"></i></span> Users</a>
+				<a href="index.php?page=plans" class="nav-item nav-plans" style="border:0px solid #5A5A5A;
+border-radius: 18px 18px 16px 18px; margin:10px;-webkit-box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.36); 
+box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.36);"><span class='icon-field'><i class="fa fa-th-list"></i></span> Plans</a>
+				<a href="index.php?page=packages" class="nav-item nav-packages" style="border: 0px solid #5A5A5A;
+border-radius: 18px 18px 16px 18px; margin:10px;-webkit-box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.36); 
+box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.36);"><span class='icon-field'><i class="fa fa-list"></i></span> Packages</a>
+				<a href="index.php?page=trainer" class="nav-item nav-trainer" style="border: 0px solid #5A5A5A;
+border-radius: 18px 18px 16px 18px; margin:10px;-webkit-box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.36); 
+box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.36);"><span class='icon-field'><i class="fa fa-user"></i></span> Trainers</a>
+				<a href="index.php?page=users" class="nav-item nav-users" style="border: 0px solid #5A5A5A;
+border-radius: 18px 18px 16px 18px; margin:10px;-webkit-box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.36); 
+box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.36);"><span class='icon-field'><i class="fa fa-users"></i></span> Users</a>
 			<?php endif; ?>
 		</div>
 

@@ -1,13 +1,21 @@
 <?php include('db_connect.php');?>
 
-<div class="container-fluid">
+<div class="container-fluid" style="font-family: 'Ubuntu', sans-serif;">
 	
 	<div class="col-lg-12">
+	<div class="row mb-4 mt-4">
+			<div class="col-md-12">
+				
+			</div>
+		</div>
 		<div class="row">
 			<!-- FORM Panel -->
 			<div class="col-md-4">
 			<form action="" id="manage-package">
-				<div class="card">
+				<div class="card" style="-webkit-box-shadow: 10px 10px 13px 7px rgba(0,0,0,0.35); 
+box-shadow: 10px 10px 13px 7px rgba(0,0,0,0.35);
+border: 0px solid #1C6EA4;
+border-radius: 40px 10px 40px 10px;">
 					<div class="card-header">
 						    Package Form
 				  	</div>
@@ -43,7 +51,10 @@
 
 			<!-- Table Panel -->
 			<div class="col-md-8">
-				<div class="card">
+				<div class="card" style="-webkit-box-shadow: 10px 10px 13px 7px rgba(0,0,0,0.35); 
+box-shadow: 10px 10px 13px 7px rgba(0,0,0,0.35);
+border: 0px solid #1C6EA4;
+border-radius: 40px 10px 40px 10px;">
 					<div class="card-header">
 						<b>Package List</b>
 					</div>
@@ -97,7 +108,7 @@
 
 </div>
 <style>
-	
+	@import url('https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300&display=swap');
 	td{
 		vertical-align: middle !important;
 	}

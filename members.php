@@ -1,7 +1,8 @@
 <?php include('db_connect.php');?>
 
-<div class="container-fluid">
+<div class="container-fluid" style="font-family: 'Ubuntu', sans-serif;">
 <style>
+	@import url('https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300&display=swap');
 	input[type=checkbox]
 {
   /* Double-sized Checkboxes */
@@ -24,7 +25,10 @@
 
 			<!-- Table Panel -->
 			<div class="col-md-12">
-				<div class="card">
+				<div class="card" style="-webkit-box-shadow: 10px 10px 13px 7px rgba(0,0,0,0.35); 
+box-shadow: 10px 10px 13px 7px rgba(0,0,0,0.35);
+border: 0px solid #1C6EA4;
+border-radius: 40px 10px 40px 10px;">
 					<div class="card-header">
 						<b>MEMBER INFORMATION</b>
 						<span class="">
@@ -80,8 +84,9 @@
 									</td>
 									<td class="text-center">
 										<button class="btn btn-sm btn-outline-success view_member" type="button" data-id="<?php echo $row['id'] ?>" >VIEW</button>
+										<BR></BR>
 										<button class="btn btn-sm btn-outline-primary edit_member" type="button" data-id="<?php echo $row['id'] ?>" >UPDATE</button>
-										<button class="btn btn-sm btn-outline-danger delete_member" type="button" data-id="<?php echo $row['id'] ?>">REMOVE</button>
+										<!-- <button class="btn btn-sm btn-outline-danger delete_member" type="button" data-id="<?php echo $row['id'] ?>">REMOVE</button> -->
 									</td>
 								</tr>
 								<?php endwhile; ?>

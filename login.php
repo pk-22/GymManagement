@@ -285,7 +285,7 @@ div#login-right::before {
 	 height: auto;
 	 margin: auto auto;
 	 background: #fff;
-	 border-radius: 4px;
+	 border-radius: 205px;
 	 box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, .12);
 }
  .left {
@@ -347,7 +347,8 @@ box-shadow: 0px 0px 9px 7px rgba(28,128,199,1)"; >
 
 
   <main id="main" class=" bg-dark">
-  <div class="session">
+  <div class="session" style="-webkit-box-shadow: 5px 5px 28px 9px #787878; 
+box-shadow: 5px 5px 28px 9px #787878; ">
     <div class="left">
       <?xml version="1.0" encoding="UTF-8"?>
       <!-- <svg enable-background="new 0 0 300 302.5" version="1.1" viewBox="0 0 300 302.5" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
